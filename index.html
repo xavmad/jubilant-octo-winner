@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Fixed logo -->
+<div id="logo-container">
+  <img src="logo.png" alt="Logo">
+
+  <div id="logo-links">
+    <div id="about-btn">About</div>
+	<div id="projects-btn">Projects</div>
+    <a href="mailto:hello@7-37.pm">Email</a>
+    <a href="https://www.instagram.com/7.37.pm__/" target="_blank">Instagram</a>
+  </div>
+</div>
+
+<!-- Loader -->
+<div id="loader">
+  <img
+    src="logo.png"
+    alt="Logo"
+    id="loader-logo"
+  >
+
+  <div class="loader-bar">
+    <div class="loader-progress"></div>
+  </div>
+</div>
+
+<!-- Viewport -->
+<div id="viewport">
+
+  <!-- CAMERA LAYER -->
+  <div id="canvas">
+
+    <!-- Group 1 - Open House -->
+    <img src="Image_OpenHouse_01.jpg" class="image" data-project="project1">
+    <img src="Image_OpenHouse_02.jpg" class="image" data-project="project1">
+
+    <!-- Group 2 - Narcisse Magazine -->
+    <img src="Image_Narcisse_01.jpg" class="image" data-project="project2">
+    <img src="Image_Narcisse_02.jpg" class="image" data-project="project2">
+
+    <!-- Group 3 - Odays -->
+    <img src="Image_ODays_01.jpg" class="image" data-project="project3">
+    <img src="Image_ODays_02.jpg" class="image" data-project="project3">
+
+    <!-- Group 4 - Bacteria Babies-->
+    <img src="Image_BacteriaBabies_01.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_02.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_03.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_04.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_05.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_06.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_07.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_08.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_09.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_10.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_11.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_12.jpg" class="image" data-project="project4">
+    <img src="Image_BacteriaBabies_13.jpg" class="image" data-project="project4">
+
+    <!-- Group 5 - Le Cannibale-->
+    <img src="Image_LeCannibale_01.jpg" class="image" data-project="project5">
+    <img src="Image_LeCannibale_02.jpg" class="image" data-project="project5">
+    <img src="Image_LeCannibale_03.jpg" class="image" data-project="project5">
+    <img src="Image_LeCannibale_04.jpg" class="image" data-project="project5">
+
+    <!-- Group 6 - Komono
+    <img src="Image_LeCannibale_01.jpg" class="image" data-project="project5">
+    <img src="Image_LeCannibale_02.jpg" class="image" data-project="project5">
+    <img src="Image_LeCannibale_03.jpg" class="image" data-project="project5">
+    <img src="Image_LeCannibale_04.jpg" class="image" data-project="project5">
+    <img src="Image_LeCannibale_05.jpg" class="image" data-project="project5">
+
+    -->
+
+  </div>
+</div>
+
+
+<!-- Projects Directory -->
+<div id="projects-panel" class="content-box" style="display: none;">
+  <div class="projects-container">
+  <!-- Add Clients -->
+    <div class="projects-column">
+      <h4>Project</h4>
+      <p><button class="project-btn" data-project="project1">Kiko Kostadinov Showroom</button></p>
+      <p><button class="project-btn" data-project="project3">Resonance in Liminal Matter</button></p>
+    </div>
+ <!-- Add Categories -->
+    <div class="projects-column">
+      <h4>Client</h4>
+      <p>Kiko Kostadinov</p>
+      <p>O Days Music Festival</p>
+    </div>
+	<!-- Add clients -->
+    <div class="projects-column">
+      <h4>Category</h4>
+      <p>Fashion, Showroom, Scenography</p>
+      <p>Installation, Music, Material Research</p>
+      <!-- Add locations -->
+    </div>
+    <div class="projects-column">
+      <h4>Location</h4>
+      <p>Paris</p>
+      <p>Copenhagen</p>
+    </div>
+    <div class="projects-column">
+      <h4>Year</h4>
+      <p>2026</p>
+      <p>2025</p>
+    </div>
+  </div>
+</div>
+
+<!-- About description -->
+<div id="about-panel" hidden>
+  <p>
+    7:37 is a design studio based between Paris and Pula,
+    working at the intersection of architecture, art,
+    culture, design, and fashion.
+  </p>
+
+  <p>
+    Our practice balances the digital and physical with a
+    sharp mix of speculation and function—one foot in the
+    future, the other firmly on the ground.
+  </p>
+
+  <p>
+    From spaces to objects, fleeting moments to lasting
+    forms, our aim is to invite interaction, shaping how we
+    move, gather, and experience the world around us.
+  </p>
+</div>
+
+
+<!-- Project descriptions -->
+<div id="project-descriptions">
+
+ <!-- PROJECT 1 - Open House -->
+
+  <div data-project="project1">
+    <p>Project: <strong>Open House</strong></p>
+    <p>Year: <strong>2024</strong></p>
+    <p>Client: <strong>Pitch Music & Arts Festival</strong></p>
+    <p>
+      Open House for Pitch Music and Arts Festival 2024 was a house without a door.
+      Visitors broke in through the windows to access the festival’s communal living room for a slice of home.
+    </p>
+  </div>
+
+<!-- PROJECT 2 - Narcisse Magazine -->
+
+  <div data-project="project2">
+    <p>Project: <strong>Narcisse Magazine x Maison Walther</strong></p>
+    <p>Year: <strong>2025</strong></p>
+    <p>Client: <strong> Narcisse Magazine </strong></p>
+    <p>
+    <p>Project 2 description paragraph one.</p>
+  </div>
+
+  <div data-project="project3">
+    <p>Project: <strong>Resonance in Liminal Matters</strong></p>
+    <p>Year: <strong>2025</strong></p>
+    <p>Client: <strong>O Days Music & Arts Festival</strong></p>
+    <p>
+    <p>Project 3 description paragraph one.</p>
+  </div>
+
+ <div data-project="project4">
+    <p><strong>Project 4</strong></p>
+    <p>Project 4 description paragraph one.</p>
+  </div>
+
+ <div data-project="project5">
+    <p><strong>Project 5</strong></p>
+    <p>Project 5 description paragraph one.</p>
+  </div>
+
+</div>
+
+<!-- ✅ MOBILE PROJECT VIEW (ADDED) -->
+<div id="mobile-project" hidden>
+  <div id="mobile-exit">Close</div>
+  <div id="mobile-stack"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
