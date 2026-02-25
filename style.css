@@ -247,6 +247,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #contact-panel.visible {
@@ -733,6 +734,7 @@ html, body {
 .project-btn:hover {
   text-decoration: underline;
 }
+
 
 
 
