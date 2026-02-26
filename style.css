@@ -660,7 +660,8 @@ html, body {
 
   .projects-row {
     grid-template-columns: 1fr auto;
-    gap: 24px;
+    column-gap: 36px;  /* ← more space between Project & Year */
+    row-gap: 6px;      /* ← keeps vertical spacing tight */
     align-items: baseline;
     padding: 6px 0;
   }
@@ -708,6 +709,7 @@ html, body {
 .project-btn:hover {
   text-decoration: underline;
 }
+
 
 
 
