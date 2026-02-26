@@ -660,7 +660,7 @@ html, body {
 
   .projects-row {
     grid-template-columns: 1fr auto;
-    gap: 12px;
+    gap: 24px;
     align-items: baseline;
     padding: 6px 0;
   }
@@ -708,6 +708,7 @@ html, body {
 .project-btn:hover {
   text-decoration: underline;
 }
+
 
 
 
